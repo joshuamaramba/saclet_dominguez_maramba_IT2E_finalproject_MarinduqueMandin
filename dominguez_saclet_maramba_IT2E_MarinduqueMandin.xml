@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE EMD-Cook-n [
+	<!ELEMENT Marinduque Mandin (top-navigation-bar)>
+	<!ELEMENT top-navigation-bar (home, municipality, start-here, about-us, contact-us)>
+	<!ELEMENT home (introduction)>
+	<!ELEMENT introduction (#PCDATA)>
+	<!ELEMENT municipality (title, description)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT start-here (get-started, Municipality-intro)>
+	<!ELEMENT get-started (#PCDATA)>
+	<!ELEMENT municipality-intro (#PCDATA)>
+	<!ELEMENT about-us (#PCDATA)>
+	<!ELEMENT contact-us (input)>
+	<!ELEMENT input (#PCDATA)>
+
+	<!ATTLIST municipality number CDATA #REQUIRED>
+]>
+
+
+<EMD-Cook-n>
+
+	<top-navigation-bar>
+	<home>
+		<introduction> Marinduque is an island province in the Philippines located in Southwestern Tagalog Region or Mimaropa, formerly designated as Region IV-B. Its capital is the municipality of Boac. Marinduque lies between Tayabas Bay to the north and Sibuyan Sea to the south. It is west of the Bondoc Peninsula of Quezon province; east of Mindoro Island; and north of the island province of Romblon. Some parts of the Verde Island Passage, the center of the center of world's marine biodiversity and a protected marine area, are also within Marinduque's provincial waters.</introduction>
+	</home>
+
+	<municipality number ="01">
+		<title> Boac </title>
+		<description>The capital of the province, the most populous town in the province Boac remains the center of industry, culture, economy, and education. Most government and private offices are in the municipality of Boac. It also borders all five municipalities. Mogpog to the North, Santa Cruz to the Northeast, Torrijos to the East, Buenavista to the South, and Gasan to the Southwest. Boac is named after the Tagalog word, biak, which means divided, due to the Boac River dividing the town in the geographic north and south. </description>
+	</municipality>
+
+	<municipality number ="02">
+		<title> Mogpog </title>
+		<description>The Primary Gateway of the Province through the Balanacan Port, It is the original home of the Moriones Lenten Rites and Kangga Festiva. Mogpog was named after the Tagalog word, mag-aapog or kiln makers abundant in the municipality. </description>
+	</municipality>
+
+	<municipality number ="03">
+		<title>Torrijos</title>
+		<description> Named after three purported origins from Gen. Torrijos, from torrillos, referring to the cows which pastured in its vast plains, and from torre y hijos, referring to the watchtower men guarding the parish. Torrijos is deemed to be the summer capital of the Province and known for locally-grown strawberries </description>
+	</municipality>
+
+	<municipality number ="04">
+		<title> Stacruz </title>
+		<description> The largest of all the six municipalities in terms of land area and the second most populous town after Boac . It is considered as a secondary municipality after Boac (since it is the capital). Together with Boac, it is also a first-class municipality with established industries and commercial routines. </description>
+	</municipality>
+
+	<municipality number ="05">
+		<title> Buenavista </title>
+		<description> Municipality of Buenavista (Tagalog: Bayan ng Buenavista), is a 4th class municipality in the province of Marinduque, Philippines. The town was named "Buenavista" by Don Cornelio Sadiua, due to its "good view." Its former name was Sabang, which is the river that runs through it. The majority of Buenavistans trace their ancestry to the Don Cornelio Sadiua family. </description>
+	</municipality>
+
+	<municipality number ="06">
+		<title> Gasan </title>
+		<description> Greetings, Welcome to MARINDUQUE MANDIN, Thank you for visiting! If you are a type of person who loves to travel then stay, this website is for you. There are many reasons to visit Marinduque, a heart-shaped island province in the Philippines found in the country’s south western Tagalog Region of MIMAROPA. Marinduque’s is best known for its annual Moriones Festival that takes place during the Holy Week. It’s one of the oldest festivals in the Philippines where locals don colourful masks and costumes to re-enact the story of the Roman soldier, Longinus. Other than during the Moriones Festival, travellers can visit Marinduque all year round for its uncrowded white-sand beaches, gorgeous landscapes, scenic tours, historical landmarks, and of course, its cuisine. Marinduque’s unique cuisine and its native delicacies are one of the reasons why you should visit the province. So, what are you waiting for? Please add Marinduque in your bucket list now and start to browse around, thank you! </description>
+	</municipality>
+
+	<start-here> 
+		<get-started> Hello! Welcome to EMD Cook'n. My name is Warren Malangis. I am the person behind emdcook-n.com. If you want to learn how to cook and get free access to thousands of delicious recipes, you came to the right place. This website contains all the information to develop your cooking skills and prepare delicious dishes the easy way. Please feel free to browse around, or use the buttons below to navigate within the page. </get-started>
+		
+	</start-here>
+
+	<about-us>Our group was from BSI/T-2E. And we created this website named Marinduque Mandin. </about-us>
+
+	<contact-us>
+		<input> First Name </input>
+		<input> Last Name </input>
+		<input> Email </input>
+		<input> Subject </input>
+	</contact-us>
+
+	</Marinduque_Mandin>
+	</top-navigation-bar>
+</Marinduque_Mandin>
